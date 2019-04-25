@@ -111,29 +111,11 @@ void setFreqs(int left, int right)
 		left2 = (int)round(left * left_L);
 	}
 
-
-	//float left2 = left * caliValue_left;
-	//float right2 = right * caliValue_right;
-
-	//int left3 = (int)round(left2);
-	//int right3 = (int)round(right2);
-
-	//if(left3 < 40 && left3 > -40) left3 = 0;
-	//else if(left3 > 800) left3 = 800;
-	//else if(left3 < -800) left3 = -800;
-
-	//if(right3 < 40 && right3 > -40) right3 = 0;
-	//else if(right3 > 800) right3 = 800;
-	//else if(right3 < -800) right3 = -800;
-
-	//ROS_INFO("motor_left:%d", left3);
-	//ROS_INFO("motor_right:%d", right3);
-
-
 	if(left2 > 800) left2 = 800;
 	else if(left2 < -800) left2 = -800;
 	if(right2 > 800) right2 = 800;
 	else if(right2 < -800) right2 = -800;
+
 	ofsL << left2 << std::endl;
 	ofsR << right2 << std::endl;
 }

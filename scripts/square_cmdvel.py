@@ -227,15 +227,3 @@ if __name__ == '__main__':
 
 	else:
 		rospy.loginfo("motion mode null")
-
-#	if tt.m == 1:
-#		tt.test_linear_pub()
-#	elif tt.m == 2:
-#		tt.test_linear_back_pub()
-#	elif tt.m == 3:
-#		tt.test_left_pub()
-#	elif tt.m == 4:
-#		tt.test_right_pub()
-#	else:
-#		print('null')
-	#rospy.spin()

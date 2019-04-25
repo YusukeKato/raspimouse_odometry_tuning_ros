@@ -12,7 +12,6 @@ from raspimouse_ros_2.msg import ButtonValues
 from raspimouse_odometry_tuning.msg import CalibrationValue
 
 class Calibration():
-
 	def __init__(self):
 		self.calibr_flag = 0
 		self.button = False
@@ -56,8 +55,8 @@ class Calibration():
 		q = message.pose.orientation
 		e = self.Quaternion_to_Euler(q)
 		theta = e[2] / 3.141592 * 180.0
-		if theta < 0: theta = 180 + (180 + theta)
-		a.append(theta)#e[2]->EulerAngles.z
+		if theta < 0: theta = 180.0 + (180.0 + theta)
+		a.append(theta) #e[2]->EulerAngles.z
 		#self.true_pose.append(a)
 		self.true_pose_one = a
 		
