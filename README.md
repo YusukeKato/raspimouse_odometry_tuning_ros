@@ -26,11 +26,13 @@ https://github.com/ryuichiueda/raspimouse_ros_2
 ## 実行
 
 ### rosbridge_server
+http://wiki.ros.org/rosbridge_server
 ```
 roslaunch rosbridge_server rosbridge_websocket.launch
 ```
 
 ### RasPiMouse
+https://github.com/ryuichiueda/raspimouse_ros_2
 ```
 roslaunch raspimouse_ros_2 raspimouse.launch
 ```
