@@ -4,6 +4,9 @@ https://github.com/YusukeKato/raspimouse_odometry_tuning_unity
 
 このUnityアプリケーションと共に使用する
 
+## 動作の様子
+<img src=https://github.com/YusukeKato/Images_Repository/blob/master/DemoMovieSquare4.gif width=34%>
+
 ## キャリブレーションの流れ
 1. ロボットを一辺L[m]の正方形を描くように走らせる
 2. 4つの角におけるロボットの位置姿勢を取得
