@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>raspimouse_odom_tuning_ros</name>
+  <name>raspimouse_odometry_tuning</name>
   <version>0.0.0</version>
   <description>The raspimouse_odom_tuning_ros package</description>
 

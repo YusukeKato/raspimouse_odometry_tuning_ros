@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(raspimouse_odom_tuning_ros)
+project(raspimouse_odometry_tuning)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
