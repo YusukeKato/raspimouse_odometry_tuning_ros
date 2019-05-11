@@ -203,7 +203,7 @@ void callbackCV(const raspimouse_odometry_tuning::CalibrationValue::ConstPtr& ms
 	back_L = msg->back_L;
 	right_R = msg->right_R;
 	right_L = msg->right_L;
-	left_L = msg->left_L;
+	left_R = msg->left_R;
 	left_L = msg->left_L;
 }
 
