@@ -16,28 +16,17 @@ https://github.com/YusukeKato/raspimouse_odometry_tuning_unity
 ## 導入方法
 ```
 cd ~/catkin_ws/src
-git clone https://github.com/YusukeKato/raspimouse_odometory_tuning_ros.git
+git clone https://github.com/YusukeKato/raspimouse_odometry_tuning_ros.git
+git clone https://github.com/ryuichiueda/raspimouse_ros_2
 cd ~/catkin_ws
 catkin_make
 ```
 
-## motors.cpp の置き換え
-https://github.com/ryuichiueda/raspimouse_ros_2
-
-このパッケージ内にある src/motors.cpp を置き換える
-
 ## 実行
 
-### rosbridge_server
-http://wiki.ros.org/rosbridge_server
-```
-roslaunch rosbridge_server rosbridge_websocket.launch
-```
-
 ### RasPiMouse
-https://github.com/ryuichiueda/raspimouse_ros_2
 ```
-roslaunch raspimouse_ros_2 raspimouse.launch
+roslaunch raspimouse_odometry_tuning raspimouse.launch
 ```
 
 ### 正方形を描くように走行
